@@ -1,0 +1,179 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carpet World - Handloom Shop</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        /* Header */
+        header {
+            background-color: #5a2d0c;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            font-size: 15px;
+        }
+
+        /* Banner */
+        .banner {
+            background: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c") center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        /* Section */
+        section {
+            padding: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #5a2d0c;
+            margin-bottom: 30px;
+        }
+
+        /* Catalogue */
+        .catalogue {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 15px;
+            text-align: center;
+        }
+
+        .item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        .item h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .item p {
+            color: #666;
+        }
+
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #5a2d0c;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #5a2d0c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Carpet World</h1>
+    <p>Premium Handloom Carpets & Rugs</p>
+    <section>
+    <h2>Owner Details</h2>
+        <p><strong>Owner Name:</strong> Mohammad Hussain</p>
+        <p><strong>Contact Number:</strong> +91 8638776430</p>
+        <p><address>Shop Address:</address> Sarjapur Road in Bangalore</p>
+
+</section>
+</header>
+
+
+<div class="banner">
+    Handcrafted Luxury Carpets
+</div>
+
+<section>
+    <h2>Our Catalogue</h2>
+
+    <div class="catalogue">
+        <div class="item">
+            <img src="artificial-grass.jpg">
+            <h3>Artificial-Grass Carpet</h3>
+            <p>Artificial-Grass Best Quality</p>
+            <p class="price">Per Sq feet ₹90</p>
+        </div>
+
+        <div class="item">
+            <img src="Maggi2.jpg">
+            <h3>Maggi Carpet</h3>
+            <p>Premium Maggi Carpet</p>
+            <p class="price">Per Sq Feet ₹80</p>
+        </div>
+
+        <div class="item">
+            <img src="saigi">
+            <h3>Saiggi Crapet</h3>
+            <p>Premium Saiggi Carpet</p>
+            <p class="price">₹9,000</p>
+        </div>
+
+        <div class="item">
+            <img src="Silk.jpg">
+            <h3>Silk Designer Carpet</h3>
+            <p>Perfect for living rooms</p>
+            <p class="price">₹15,000</p>
+        </div>
+        
+         <div class="item">
+            <img src="artificial-wall grass">
+            <h3>Artificial Wall Grass</h3>
+            <p>Walls & Balcony Design</p>
+            <p class="price">Per Sq feet ₹130</p>
+        </div>
+
+        <div class="item">
+            <img src="maggi.jpg">
+            <h3>Modern Designer Carpet</h3>
+            <p>Perfect for living rooms</p>
+            <p class="price">₹5,000</p>
+        </div>
+
+        <div class="item">
+    <img src="parsian.jpg">
+    <h3>Persian Handloom Carpet</h3>
+    <p>Pure wool handmade carpet</p>
+    <p class="price">₹7,000</p>
+</div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Carpet World | Handloom Carpet Shop</p>
+</footer>
+
+</body>
+</html>
